@@ -25,18 +25,17 @@
     "lint": "eslint src",
     "start": "nwb serve",
     "test": "nwb test",
-    "test:watch": "nwb test --server",
-    "preinstall": "nwb build"
+    "test:watch": "nwb test --server"
   },
   "dependencies": {
-    "inputmask-core": "^2.1.1",
-    "nwb": "0.9.x"
+    "inputmask-core": "^2.1.1"
   },
   "peerDependencies": {
     "react": "0.14.x || 15.x.x"
   },
   "devDependencies": {
     "eslint-config-jonnybuchanan": "2.0.3",
+    "nwb": "0.9.x",
     "react": "15.x.x",
     "react-dom": "15.x.x"
   },
