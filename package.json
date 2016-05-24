@@ -25,7 +25,8 @@
     "lint": "eslint src",
     "start": "nwb serve",
     "test": "nwb test",
-    "test:watch": "nwb test --server"
+    "test:watch": "nwb test --server",
+    "prepublish": "npm run build"
   },
   "dependencies": {
     "inputmask-core": "^2.1.1"
